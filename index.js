@@ -40,9 +40,10 @@ function game() {
   let computerScore = 0;
   
   for (let i = 0; i < 5; i++) {
-    const playerSelection = prompt('Choose rock, paper, or scissors.',);
-    if (playerSelection.toLowerCase() !== 'rock' ||
-      playerSelection.toLowerCase() !== 'paper' ||
+    let playerSelection = prompt('Choose rock, paper, or scissors.');
+    
+    if (playerSelection.toLowerCase() !== 'rock' &&
+      playerSelection.toLowerCase() !== 'paper' &&
       playerSelection.toLowerCase() !== 'scissors') {
         return 'Invalid selection';
     }
