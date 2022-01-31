@@ -1,0 +1,57 @@
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'courier new', monospace;
+  height: 100vh;
+  padding: 0;
+  background-color: #202124;
+  color: #bdc1c6;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.buttons input {
+  font-family: 'courier new', monospace;
+  font-weight: 500;
+  font-size: 28px;
+  background-color: #a1a5aa;
+  color: #202124;
+  padding: 0px 9px;
+  border-radius: 5px;
+}
+
+.game, .round, .score {
+  height: 10px;
+}
+
+.round {
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.game {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-top: 150px;
+  font-size: 18px;
+}
